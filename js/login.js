@@ -36,7 +36,7 @@ document.getElementById('button-login').addEventListener('click', function(event
     // bad way to validate
     if(phoneNumber === '5' && pinNumber === '1234'){
         console.log('you are logged in bkash');
-        window.location.href = '/home.html'
+        window.location.href = './home.html'
     }
     else{
         alert('Wrong phone number or email')
